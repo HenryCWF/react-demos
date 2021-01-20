@@ -45,7 +45,7 @@ var App = function (_React$Component) {
     key: 'handleClick',
     value: function handleClick() {
       this.setState({
-        items: this.state.items.concat('Item ' + this.state.items.length)
+        items: this.state.items.concat('Item : ' + this.state.items.length)
       });
     }
   }, {
